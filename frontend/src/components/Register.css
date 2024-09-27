@@ -1,0 +1,74 @@
+/* Register.css */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: #ff0000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: center;
+    /* Centrar el texto del label */
+}
+
+input {
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+input:focus {
+    border-color: #ff0000;
+    outline: none;
+    box-shadow: 1px 1px 5px 3px #ff000087;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
